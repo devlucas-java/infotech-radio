@@ -1,6 +1,28 @@
 import { Globe, Monitor, Wifi } from "lucide-react";
 
 
+
+
+export const number1 = "(94) 1234-4321" //esse e o numero do whats qeu vai quando clicar em contratar ok 
+export const number2 = "(94) 1234-4321"
+
+export const whatsappNumber = "5594981343298";
+
+export const email1 = "contato@infotech.com"
+export const email2 = "suporte@infotech.com"
+
+export const rua = "Rua do Salao do kakay"
+export const endereco = "Centro - Casa de Tabua/PA"
+
+
+
+
+export const clientesSatisfeitos = 500
+export const anosExperiencia = 10
+
+
+
+
   export const plans = [
     {
       name: "Básico",

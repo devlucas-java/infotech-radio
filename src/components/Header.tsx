@@ -9,13 +9,16 @@ export const Header: React.FC = () => {
     <header className="bg-gradient-to-r from-red-600 to-red-700 text-white shadow-lg sticky top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
-          <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
-              <div className="w-6 h-6 bg-gradient-to-br from-red-600 to-red-800 rounded-full flex items-center justify-center">
-                <div className="w-3 h-3 bg-white rounded-sm"></div>
-              </div>
+          <div className="  items-center space-x-3">
+            <div className="w-12 h-1 rounded-full flex items-center justify-center">
+                <img
+                  src="icon.png"
+                  alt="Logo Infotech"
+                  className=" h-35 left-7 -top-11 w-35 absolute object-contain"
+                />
             </div>
-            <div>
+
+            <div className="absolute top-0 left-25">
               <h1 className="text-2xl font-bold">INFO-TECH</h1>
               <p className="text-red-100 text-sm">Provedor de Internet</p>
             </div>

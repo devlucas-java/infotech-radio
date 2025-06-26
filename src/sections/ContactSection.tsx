@@ -1,4 +1,5 @@
 import { Mail, MapPin, Phone } from "lucide-react";
+import { email1, email2, endereco, number1, number2, rua } from "../config";
 
 
 export const ContactSection: React.FC = () => {
@@ -16,8 +17,8 @@ export const ContactSection: React.FC = () => {
               <Phone size={24} />
             </div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Telefone</h3>
-            <p className="text-gray-600">(11) 9999-9999</p>
-            <p className="text-gray-600">(11) 8888-8888</p>
+            <p className="text-gray-600">{number1}</p>
+            <p className="text-gray-600">{number2}</p>
           </div>
           
           <div className="text-center">
@@ -25,8 +26,8 @@ export const ContactSection: React.FC = () => {
               <Mail size={24} />
             </div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">E-mail</h3>
-            <p className="text-gray-600">contato@infotech.com</p>
-            <p className="text-gray-600">suporte@infotech.com</p>
+            <p className="text-gray-600">{email1}</p>
+            <p className="text-gray-600">{email2}</p>
           </div>
           
           <div className="text-center">
@@ -34,8 +35,8 @@ export const ContactSection: React.FC = () => {
               <MapPin size={24} />
             </div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Endereço</h3>
-            <p className="text-gray-600">Rua da Tecnologia, 123</p>
-            <p className="text-gray-600">Centro - São Paulo/SP</p>
+            <p className="text-gray-600">{rua}</p>
+            <p className="text-gray-600">{endereco}</p>
           </div>
         </div>
       </div>

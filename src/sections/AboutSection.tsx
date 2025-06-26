@@ -1,4 +1,5 @@
 import { Clock, Shield, Users, Zap } from "lucide-react";
+import { anosExperiencia, clientesSatisfeitos } from "../config";
 
 
 export const AboutSection: React.FC = () => {
@@ -14,11 +15,11 @@ export const AboutSection: React.FC = () => {
             </p>
             <div className="grid grid-cols-2 gap-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-red-600">10+</div>
+                <div className="text-3xl font-bold text-red-600">{anosExperiencia}+</div>
                 <div className="text-gray-600">Anos de Experiência</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-red-600">5000+</div>
+                <div className="text-3xl font-bold text-red-600">{clientesSatisfeitos}+</div>
                 <div className="text-gray-600">Clientes Satisfeitos</div>
               </div>
               <div className="text-center">
