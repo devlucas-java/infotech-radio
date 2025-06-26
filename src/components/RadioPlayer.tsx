@@ -28,7 +28,7 @@ export const RadioPlayer: React.FC = () => {
 
   return (
     <div className="fixed bottom-4 right-4 z-50">
-      <div className={`bg-gradient-to-r from-red-600 to-red-700 text-white rounded-lg shadow-lg transition-all duration-300 ${isVisible ? 'w-64' : 'w-12'}`}>
+      <div className={`bg-gradient-to-r from-red-600 to-red-700 rounded-lg shadow-lg transition-all duration-300 ${isVisible ? 'w-64' : 'w-12'}`}>
         <div className="flex items-center p-3">
           <button
             onClick={() => setIsVisible(!isVisible)}
